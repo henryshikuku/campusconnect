@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusConnect | Join / Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header>
+    <div class="header-inner container">
+      <a class="site-name" href="index.html">CampusConnect</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="clubs.html">Clubs</a></li>
+          <li><a href="contact.html" aria-current="page">Join / Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="container">
+      <div class="page-title">
+        <span class="badge">Say hello</span>
+        <h1>Join / Contact</h1>
+        <p>Tell us what you are interested in and the organizers will get back to you.</p>
+      </div>
+
+      <section>
+        <div class="contact-layout">
+          <form action="#" method="post">
+            <div class="form-group">
+              <p>
+              <label for="fullname">Full name</label>
+              <input type="text" id="fullname" name="fullname" required>
+              </p>
+            </div>
+
+            <div class="form-group">
+              <p>
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required>
+              </p>
+            </div>
+
+            <div class="form-group">
+              <p>
+              <label for="year">Year of study</label>
+              <select id="year" name="year">
+                <option value="">Select your year</option>
+                <option value="1">Year 1</option>
+                <option value="2">Year 2</option>
+                <option value="3">Year 3</option>
+                <option value="4">Year 4</option>
+              </select>
+              </p>
+            </div>
+
+            <div class="form-group">
+              <p>
+              <label for="interest">Club or event interest</label>
+              <select id="interest" name="interest">
+                <option value="">Choose one</option>
+                <option value="coding">Coding Club</option>
+                <option value="debate">Debate Society</option>
+                <option value="photo">Photography Club</option>
+                <option value="events">Campus events</option>
+              </select>
+              </p>
+            </div>
+
+            <fieldset>
+              <legend>Preferred contact method</legend>
+              <p>
+              <label for="contact-email"><input type="radio" id="contact-email" name="contact" value="email" checked> Email</label>
+              </p>
+              <p>
+              <label for="contact-phone"><input type="radio" id="contact-phone" name="contact" value="phone"> Phone</label>
+              </p>
+            </fieldset>
+
+            <div class="form-group">
+              <p>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5"></textarea>
+              </p>
+            </div>
+
+            <button class="button" type="submit">Send my interest</button>
+            <p class="form-note">Practice form only &mdash; information is not sent or stored.</p>
+          </form>
+
+          <aside class="card">
+            <h2>Contact details</h2>
+            <p>Email: <a href="mailto:hello@campusconnect.com">hello@campusconnect.com</a></p>
+            <p>Office: Student Centre, Room 12</p>
+            <p>Hours: Monday to Friday, 9:00 AM &ndash; 4:00 PM</p>
+          </aside>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <p>&copy; 2026 CampusConnect &bull; <a href="mailto:hello@campusconnect.com">hello@campusconnect.com</a></p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+        <li><a href="contact.html">Join / Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
